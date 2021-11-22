@@ -64,6 +64,12 @@ header {
   }
 }
 
+.wrapper{
+  .img-rombo{
+    height: 100px;
+  }
+}
+
 .app{
   width: 100%;
 }
@@ -125,6 +131,13 @@ h3{
     }
   
   }
+
+  
+.wrapper{
+  .img-rombo{
+    height: 200px;
+  }
+}
 
   /* Panels. */
 .panel-cont{
@@ -213,6 +226,12 @@ p{
   }
   .banner-parallax{
     height: 80vh;
+  }
+
+  .wrapper{
+    .img-rombo{
+      height: 280px;
+    }
   }
 }
 

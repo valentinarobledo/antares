@@ -252,6 +252,11 @@ header {
   grid-gap: 2vmin;
   justify-items: center;
   align-items: center;
+  .img-rombo{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+  }
   IMG {
     z-index: 1;
     grid-column: span 2;

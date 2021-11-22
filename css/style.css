@@ -318,6 +318,13 @@ header .nav input:checked ~ span:nth-child(3) {
           align-items: center;
 }
 
+.wrapper .img-rombo {
+  width: 280px;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .wrapper IMG {
   z-index: 1;
   grid-column: span 2;
@@ -492,6 +499,9 @@ footer {
     height: 6vw;
     border-radius: 50%;
   }
+  .wrapper .img-rombo {
+    height: 100px;
+  }
   .app {
     width: 100%;
   }
@@ -528,6 +538,9 @@ footer {
   }
   header .nav input:checked ~ .menu {
     width: 50vw;
+  }
+  .wrapper .img-rombo {
+    height: 200px;
   }
   /* Panels. */
   .panel-cont .splitview {
@@ -587,6 +600,9 @@ footer {
   }
   .banner-parallax {
     height: 80vh;
+  }
+  .wrapper .img-rombo {
+    height: 280px;
   }
 }
 
