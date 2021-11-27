@@ -74,6 +74,10 @@ header {
   width: 100%;
 }
 
+.swiper-container{
+  height: 80vw;
+}
+
 footer{
   .logo{
     width: 40vw;
@@ -169,7 +173,11 @@ h3{
   }
 }
 .banner-parallax{
-  height: 40vh;
+  height: 80vh;
+}
+
+.swiper-container{
+  height: 70vw;
 }
 
 footer{
@@ -225,9 +233,11 @@ p{
  
   }
   .banner-parallax{
-    height: 80vh;
+    height: 120vh;
   }
-
+  .swiper-container{
+    height: 60vw;
+  }
   .wrapper{
     .img-rombo{
       height: 280px;
@@ -265,5 +275,7 @@ p{
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-
+  .swiper-container{
+    height: 42vw;
+  }
  }

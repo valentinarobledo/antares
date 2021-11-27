@@ -1,25 +1,19 @@
 var swiper = new Swiper(".mySwiper", {
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
   loop: true,
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
 });
-
 var swiper2 = new Swiper(".mySwiper2", {
+  loop: true,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  loop: true,
+  thumbs: {
+    swiper: swiper,
+  },
 });
 
-var swiper3 = new Swiper(".mySwiper3", {
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  loop: true,
-  autoplay:{
-    delay: 3000
-  }
-});
